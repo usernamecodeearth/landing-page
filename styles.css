@@ -1,0 +1,142 @@
+*{
+    font-family: arial, sans-serif;
+}
+
+/*header and section 1*/
+header {
+    background-color: #192841;
+    padding: 70px;
+    color: white;
+    margin: 0px 0px;
+    display: flex;
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+#topButton{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    text-align: center;
+    color: white ;
+    background: #192841;
+}
+
+#topButton:hover{
+    cursor: pointer;
+    background-color: #191919;
+}
+
+/*section 2*/
+.section2{
+    background-color: white;
+    padding: 65px;
+}
+
+.imageText{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 30px; 
+    
+}
+
+.randomInfo-p{
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 30px;
+}
+.imagesDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image1, .image2, .image3, .image4{
+    border: 3px solid #3c89d0;
+    border-radius: 15px;
+    padding: 60px 60px;
+    display: flex;
+} 
+
+
+/*section 3*/
+
+.section3{
+    background-color: #D3D3D3;
+    display: flex;
+    padding: 60px;
+}
+
+.quote{
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(71, 71, 71);
+}
+
+.thor{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/*section 4*/
+.actionCall-div{
+    border: 3px solid white;
+    width: 500px;
+    margin: 20px auto;
+    color: white;
+    border-radius: 4px;
+    padding: 0px 20px;
+    background: #3c89d0;
+    border-radius: 15px;
+}
+
+.callToAction-p {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    margin-bottom: -45px;
+    margin-top: 30px;
+}
+
+.signUpCall{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+
+#endButton{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3px 5px;
+    text-align: center;
+    color: white ;
+    background: #3c89d0;
+}
+
+#endButton:hover{
+    background-color: #2d669c;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #192841;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
