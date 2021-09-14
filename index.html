@@ -7,74 +7,97 @@
     <title>Landing Page Project</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <nav>
-            <div class="header-logo">Header Logo </div>
-            <ul class="header-nav">
-                <a href="#">header link 1</a>
-                <a href="#">header link 2</a>
-                <a href="#">header link 3</a>
-            </ul>
-        </nav>
-        <section class="section1">
-            <h1>This is an awesome website.</h1>
-           <p class="awesome-text">This website has some subtext that goes here under the main
-                title. It's a smaller font and the color is lower contrast.
-            </p>
-            <button id="topButton">Sign up</button>
+        <div class="nav">
+            <div class="left">
+                <img id="logo" src="https://www.wholesalesuppliesplus.com/Images/Products/8761-Japanese-Cherry-Blossom-FO-695.jpg" >
+            </div>
+            <div class="right">
+                <ul class="header-links">
+                    <a href="#">Home</a>
+                    <a href="#">Cities</a>
+                    <a href="#">Contact</a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="welcome">
+            <div class="welcomeContainer">
+                <h1 class="welcomeText1">Every child deserves the best.</h1>
+                <p class="welcomeText2">We believe every child should have the chance to become the absolute best they
+                    can be and we're determined to help make that happen. If you want to sign your child up for afterschool 
+                    tutoring, click the sign up button and we'll handle the rest.</p>
+                <button id="topButton">Sign up</button>
+            </div>
+
+            <div class="welcomeImageContainer">
+                <img class="classroomImage" src="https://cdn-japantimes.com/wp-content/uploads/2020/12/np_file_57605-870x489.jpeg" alt="Children in a classroom">
+            </div>  
+       </div>
    
-           <p class="awesomeImage" >this is a placeholder for an image</p>
-       </section>
     </header>
 
     <section class="section2">
-        <h1 class="randomInfo-p">Some random information.</h1>
+        <!-- <h1 class="randomInfo-p">Some random information.</h1>
      <div class="imagesDiv">
         <div class="image1"></div>  
         <div class="image2"> </div>  
         <div class="image3"> </div>  
         <div class="image4"></div>
-       </div>
-       <div class="imageText">
-        <p>This is some subtext under an illustration or image.</p>
-        <p>This is some subtext under an illustration or image.</p>
-        <p>This is some subtext under an illustration or image.</p>
-        <p>This is some subtext under an illustration or image.</p>
+       </div> -->
+       <div class="location">
+            <h2 class="homesTitle">Our tutoring locations:</h2>
+            <div class="locationContainer">
+                <div class="city">
+                    <img src="https://stillmed.olympics.com/media/Images/OlympicOrg/News/2020/03/24/2020-03-24-tokyo-thumbnail-01.jpg" alt="Tokyo, Japan">
+                    <p>Tokyo, Japan</p>
+                </div>
+                <div class="city">
+                    <img src="https://www.geekyexplorer.com/wp-content/uploads/2019/04/Kyoto-things-to-do-japan.jpg" alt="Kyoto, Japan">
+                    <p>Kyoto, Japan</p>
+                </div>
+                <div class="city">
+                    <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2019/09/Sapporo-Odori-Park-iStock-SeanPavonePhoto-1024x600.jpg" alt="Sapporo, Japan">
+                    <p>Sapporo, Japan</p>
+                </div>
+                <div class="city">
+                    <img src="https://www.planetware.com/wpimages/2020/08/japan-best-cities-osaka.jpg" alt="Osaka, Japan">
+                    <p>Osaka, Japan</p>
+                </div>
+            </div>
        </div>
 
     </section>
 
     <section class="section3">
         <div class="quote">
-            <p>This is an inspirational quote, or a testimonial from a customer.
-                Maybe it's just filling up space, or maybe 
-                people will actually read it. Who knows? All I 
-                know is that it looks nice.
+            <p>"Ever since we started tutoring, my children have seen an great improvement in their grades and we've
+                seen so much more confidence in them and their ability to learn, thank you so much for showing our 
+                children how to academically be the best they can be."
             </p>
         </div>
         <div>
-            <p class="thor">-Thor, God of Thunder</p>
+            <p class="thor">-Future You, a Satisfied Customer</p>
         </div>   
         
     </section>
 
-    <section class="section4">
-        
-       <div class="actionCall-div">
-            <p class="callToAction-p">Call to action time! </p>
-            <div>
-                <p class="signUpCall">Sign up for our product by clicking that button right 
-                over there! <button id="endButton">Sign up</button>
-                </p>
-            
+    <div class="signUp">
+        <div class="signUpContainer">
+            <div class="textContainer">
+                <div class="question">Are you ready to help your child be their best? </div>
+                <div class="action">Sign up and we'll have a counselor contact you with more details.</div>
             </div>
-       </div>
-        
-    </section>
+            <div class="signUpButton">
+                <button id="endButton">Sign up</button>
+            </div>  
+        </div>   
+    </div>
 
     <footer class="sticky-footer">
-        <div class="footer">Copyright © The Odin Project</div>
+        <div class="footer">Copyright © Mary Stevens</div>
     </footer>
     
 </body>
