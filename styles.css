@@ -51,8 +51,6 @@ a:hover {
   gap: 25px;
 }
 
-/*section 1*/
-
 .welcome {
   display: flex;
   flex-direction: row;
@@ -60,17 +58,14 @@ a:hover {
   text-align: center;
 }
 
-.welcomeContainer{
-    padding-right: 100px;
+.welcomeContainer {
+  padding-right: 100px;
 }
 
 .classroomImage {
-  
   height: 30vh;
   border-radius: 30px;
 }
-
-
 
 .location {
   width: 100vw;
@@ -105,9 +100,18 @@ a:hover {
   width: 200px;
   object-fit: cover;
   border-radius: 5px;
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.city img:hover {
+  transition: transform 125ms;
+  transform: translateY(-10px);
+  cursor: pointer;
 }
 
 .city p {
+  margin-left: 40px;
   margin-top: 5px;
   font-size: 13px;
   color: #3d3d3d;
